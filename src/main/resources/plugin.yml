@@ -13,7 +13,16 @@ commands:
     permission: wirerod
     permission-message: You don't have permission "<permission>".
 permissions:
-  wirerod:
+  wirerod.reload:
+    description: WireRod command permission.
+    default: op
+  wirerod.get:
+    description: WireRod command permission.
+    default: op
+  wirerod.give:
+    description: WireRod command permission.
+    default: op
+  wirerod.action:
     description: WireRod permission.
-    default: true
+    default: false
     
